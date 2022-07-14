@@ -4,7 +4,6 @@ import 'package:go_router/go_router.dart';
 import 'data.dart';
 
 final router = GoRouter(
-  urlPathStrategy: UrlPathStrategy.path,
   routes: [
     GoRoute(
       path: '/',
